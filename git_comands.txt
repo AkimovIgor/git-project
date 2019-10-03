@@ -27,6 +27,7 @@ git branch                                                                      
 git branch -v                                                                         // Отображение всех веток с последними коммитами
 git btanch new_f2                                                                // Просто создание ветки
 git checkout new_f2                                                             // Переход в указанную ветку
+git mergetool                                                                         // Запуск утилиты для мерджа
 
 
 
