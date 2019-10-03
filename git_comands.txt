@@ -27,7 +27,14 @@ git branch                                                                      
 git branch -v                                                                         // Отображение всех веток с последними коммитами
 git btanch new_f2                                                                // Просто создание ветки
 git checkout new_f2                                                             // Переход в указанную ветку
-git mergetool                                                                         // Запуск утилиты для мерджа
+
+git mergetool                                                                         // Запуск утилиты для мерджа(слияния/соединения) веток
+
+
+/******************** РАБОТА С GITHUB ************************/
+
+git remote add origin https://github.com/AkimovIgor/git-project.git                                                // Подключаем репозиторий на GitHub к проекту
+git push -u origin master                                                                                                                  // Добавлление закомиченных данных в репозиторий на GitHub
 
 
 
