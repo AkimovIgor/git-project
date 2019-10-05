@@ -81,3 +81,12 @@ git remote add origin https://github.com/AkimovIgor/git-project.git
 
 // Добавлление закомиченных данных в репозиторий на GitHub
 git push -u origin master
+
+// Клонирование репозитория с GitHub на друугой компьютер
+git clone https://github.com/AkimovIgor/git-project.git
+
+// Получение данных с репозитория на GitHub
+git fetch
+
+// Забрать данные из репозитория на GitHub
+git pull
