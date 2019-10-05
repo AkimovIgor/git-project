@@ -71,6 +71,15 @@ git branch new_f2
 // Переход в указанную ветку
 git checkout new_f2
 
+// Выбор утилиты для конфликтов слияния (мерджа)
+git config --global merge.tool kdiff3
+
+// Залитие ветки в текущую
+git merge master
+
+// Прописывает в файл настроек .gitconfig путь для утилиты мерджа
+git config --global mergetool.kdiff3.cmd '"C:\Program Files\KDiff3\kdiff3.exe" $BASE $LOCAL $REMOTE -o $MERGED'
+
 // Запуск утилиты для мерджа(слияния/соединения) веток
 git mergetool
 
